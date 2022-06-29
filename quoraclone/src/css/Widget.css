@@ -1,0 +1,29 @@
+.widget {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 20px;
+    border: 2 px solid rgb(0, 204, 204);
+    border-radius: 5px;
+    max-height: 85vh;
+    background-color: rgb(0, 144, 144);
+    flex: 0.2;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.widget_header {
+    border-bottom: 1px solid rgb(0, 204, 204);
+}
+
+.widget_header > h5 {
+    padding: 10px;
+    color: rgb(174, 174, 174);
+    font-size: 15px;
+    letter-spacing: 1.1px;
+}
+
+.widget_contents {
+    display: flex;
+    flex-direction: column;
+}

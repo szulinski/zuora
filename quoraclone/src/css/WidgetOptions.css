@@ -1,0 +1,32 @@
+.widget_contents {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.widget_content {
+    margin: 5px;
+    display: flex;
+    padding: 5px;
+    border-bottom: 2px solid rgb(0, 204, 204);
+}
+
+.widget_content > img {
+    height: 30px;
+    border-radius: 5px;
+}
+
+.widget_contentTitle {
+    margin-left: 10px;
+}
+
+.widget_contentTitle > h5 {
+    color: rgb(174, 174, 174);
+}
+
+.widget_contentTitle > p {
+    color: rgb(174, 174, 174);
+    font-size: small;
+}
