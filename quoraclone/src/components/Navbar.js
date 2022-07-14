@@ -3,8 +3,13 @@ import titleImg from '../assets/zuoratitle.png';
 import { HomeOutlined, LanguageOutlined, AssignmentTurnedInOutlined, PeopleOutlined, CommentOutlined, NotificationsActiveOutlined, SearchOutlined } from '@mui/icons-material';
 import { Avatar, Button } from '@mui/material';
 import '../css/Navbar.css'
+import { useSelector } from 'react-redux';
+import { selectUser } from '../features/userSlice';
+import { auth } from '../Firebase';
 
 function Navbar() {
+    const user = useSelector(selectUser)
+
     return (
         <div className = 'navHeader'>
             <div className = "navHeader_logo">
@@ -35,7 +40,7 @@ function Navbar() {
                 </div>
                 <div className = 'navHeader_rem'>
                     <div className = 'navHeader_avatar'>
-                        <Avatar />
+                        <Avatar onClick = {() => auth.signOut()} src = {user.photo} />
                     </div>
                     <LanguageOutlined />
                     <Button className = 'button'> 

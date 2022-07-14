@@ -1,0 +1,246 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.login_container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 700px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.login_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.login_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.login_desc > h4 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Cedarville cursive", cursive;
+}
+
+.login_desc > p {
+    color: rgb(174, 174, 174);
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.login_auth {
+    display: flex;
+    margin-top: 50px;
+}
+
+.login_auth_options {
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 2px solid rgb(0, 144, 144);
+}
+
+.login_auth_option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 15px;
+    color: rgb(174, 174, 174);
+    border: 2px solid rgb(0, 104, 104);
+    border-radius: 20px;
+    background-color: rgb(0, 144, 144);
+    cursor: pointer;
+}
+
+.login_auth_option:hover {
+    background-color: rgb(0, 204, 204);
+    color:rgb(255, 255, 255);
+}
+
+.login_auth_option > img {
+    height: 30px;
+    object-fit: contain;
+}
+
+.login_auth_option > p {
+    margin-left: 10px;
+}
+
+.login_auth_desc {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.login_auth_desc > p {
+    font-size: small;
+    color: rgb(174, 174, 174);
+}
+
+.login_auth_desc > p:hover {
+    background-color: rgb(0, 204, 204);
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login_email_pass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    flex: 0.5;
+    margin-left: 20px;
+}
+
+.login_label > h4 {
+    color: rgb(174, 174, 174);
+    padding: 5px;
+}
+
+.login_input_fields {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.login_input_field {
+    padding: 5px;
+}
+
+.login_input_field > input {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.login_forgot_button {
+    display: flex;
+    color:rgb(174, 174, 174);
+    padding-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login_forgot_button > small {
+    color:rgb(174, 174, 174);
+    cursor: pointer;
+}
+
+.login_forgot_button > small:hover {
+    color:rgb(255, 255, 255);
+}
+
+.login_forgot_button > button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 144, 144);
+    color: rgb(174, 174, 174);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.register_button {
+    background-color: rgb(0, 144, 144);
+    color:rgb(174, 174, 174);
+    border: 2px solid rgb(0, 104, 104);
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+.register_button:hover {
+    background-color: rgb(0, 204, 204);
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.login_forgot_button > button:hover {
+    background-color: rgb(0, 204, 204);
+    color:rgb(255, 255, 255);
+}
+
+.login_email_pass > button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 144, 144);
+    color: rgb(174, 174, 174);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login_email_pass > button:hover {
+    background-color: rgb(0, 204, 204);
+    color:rgb(255, 255, 255);
+}
+
+.login_language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid rgb(0, 204, 204);
+    border-bottom: 2px solid rgb(0, 204, 204);
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.login_language > p {
+    color: rgb(174, 174, 174);
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.login_language > p:hover {
+    text-decoration: underline;
+}
+
+.login_language > .MuiSvgIcon-root {
+    color: rgb(174, 174, 174)
+}
+
+.login_language > .MuiSvgIcon-root:hover {
+    color:rgb(255, 255, 255);
+}
+
+.login_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.login_footer > p {
+    color:rgb(174, 174, 174);
+    font-size:small;
+    cursor: pointer;
+}
+
+.login_footer > p:hover {
+    text-decoration: underline;
+}

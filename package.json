@@ -5,7 +5,7 @@
     "@mui/base": "^5.0.0-alpha.85",
     "@mui/core": "^5.0.0-alpha.54",
     "@mui/icons-material": "^5.8.4",
-    "firebase": "^9.8.3",
+    "firebase": "^9.8.4",
     "react-modal": "^3.15.1"
   }
 }

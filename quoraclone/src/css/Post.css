@@ -54,13 +54,17 @@
     padding: 10px;
 }
 
+.post_question > .post_answer_button:hover {
+    text-decoration: underline;
+}
+
 .post_body > .post_question > p:hover {
     text-decoration: underline;
 }
 
 .post_body > img {
     object-fit: contain;
-    width: 100%;
+    width: 75%;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -77,6 +81,7 @@
     border-radius: 20px;
     padding: 5px;
     background-color: rgb(0, 204, 204);
+    margin-right: 10px;
 }
 
 .post_footer_action > .MuiSvgIcon-root {
