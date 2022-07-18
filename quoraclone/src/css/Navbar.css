@@ -97,3 +97,109 @@
 .text {
     color: rgb(255, 255, 255);
 }
+
+.modal {
+    margin-left: 50vh;
+    margin-top: 25vh; 
+    width: 75vh;
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 104, 104);
+    border-radius: 20px;;
+    z-index: "1000";
+    top: "50%";
+    left: "50%";
+}
+
+.modal_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 2px solid rgb(0, 144, 144);
+}
+
+.modal_title > h5 {
+    color: rgb(0, 144, 144);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.modal_title > h5:hover {
+    color:rgb(0, 204, 204)
+}
+
+.modal_info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.modal_info > p {
+    margin-left: 10px;
+    font-size: small;
+    color:rgb(0, 144, 144);
+}
+
+.modal_info > .modal_scope {
+    display: flex;
+    align-items: center;
+    color: rgb(174, 174, 174);
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(0, 144, 144);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.modal_info > .modal_scope:hover {
+    background-color: rgb(0, 204, 204);
+    color:rgb(255, 255, 255);
+}
+
+.modal_field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    flex: 1;
+}
+
+.modal_field_link {
+    display: flex;
+    align-items: center;
+    color: rgb(174, 174, 174);
+    margin-top: 10px;
+}
+
+.modal_field > .modal_field_link > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+.modal_buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 260px;
+    margin-right: -20px;
+    border-top: 2px solid rgb(0, 144, 144);
+}
+ 
+.modal_buttons > .add {
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color: rgb(0, 144, 144);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.input {
+    background-color:white;
+}
